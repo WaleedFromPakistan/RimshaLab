@@ -2,8 +2,8 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div>
-      <h1>Hello from contact us page</h1>
+    <div className="h-[600px] w-full bg-[url('/path/to/image.jpg')]">
+      
     </div>
   );
 }
