@@ -19,7 +19,7 @@ const Header = () => {
     { href: "/our_services", label: "Our Services" },
     { href: "/blogs", label: "Blogs" },
     { href: "/careers", label: "Careers" },
-    { href: "/contact_us", label: "Contact Us" },
+    // { href: "/contact_us", label: "Contact Us" },
   ];
 
   const linkClass = (href) =>
