@@ -33,7 +33,7 @@ const page = () => {
         <img
           src="/imge5.webp"
           alt="Rimsha Lab"
-          className="w-full h-[550px] rounded-lg shadow-md"
+          className="w-full md:h-[550px] h-[400px] rounded-lg shadow-md"
         />
       </div>
     </div>

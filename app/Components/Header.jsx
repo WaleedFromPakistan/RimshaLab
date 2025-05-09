@@ -17,7 +17,7 @@ const Header = () => {
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/our_services", label: "Our Services" },
-    { href: "/blogs", label: "Blogs" },
+    // { href: "/blogs", label: "Blogs" },
     { href: "/careers", label: "Careers" },
     { href: "/contact_us", label: "Contact Us" },
   ];
@@ -56,7 +56,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <FaEnvelope />
             <span className="hover:underline cursor-pointer">
-              info@rimshalabs.com
+             laboratoryrimsha@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -64,7 +64,7 @@ const Header = () => {
             <span>St-2 Nadirabad, Lahore</span>
           </div>
           <Link
-            href="/online_report"
+            href="#" //online_report
             className="bg-[#4346c9] text-white font-bold px-5 py-2 rounded-full hover:bg-black transition"
           >
             Online Report

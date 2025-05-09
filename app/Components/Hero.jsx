@@ -83,7 +83,7 @@ const Hero = () => {
       </div>
 
       {/* Main content */}
-      <div className="mx-auto px-6 py-16 flex flex-col-reverse md:flex-row h-[100%] items-center justify-between gap-10">
+      <div className="mx-auto px-2 py-6 md:px-6 md:py-16 flex flex-col-reverse md:flex-row h-[100%] items-center justify-between gap-10">
         <AnimatePresence mode="wait">
           {heroCards.map((card, i) =>
             i === index ? (
@@ -93,7 +93,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: i % 2 === 0 ? -150 : 150, opacity: 0 }}
                 transition={{ duration: 0.9 }}
-                className="bg-white bg-opacity-90 p-15 rounded-3xl flex justify-center h-full md:h-[400px] shadow-xl z-10"
+                className="bg-white bg-opacity-90 md:p-15 p-5 rounded-3xl flex justify-center h-full md:h-[400px] shadow-xl z-10"
               >
                 <div>
                   <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1f2e50] mb-4">
@@ -111,7 +111,7 @@ const Hero = () => {
                       Our Services
                     </button>
                     <button
-                      className={`rounded-full px-9 py-3 bg-[#3E4095] cursor-pointer text-white font-bold hover:bg-black transition`}
+                      className={`rounded-full hidden md:block px-9 py-3 bg-[#3E4095] cursor-pointer text-white font-bold hover:bg-black transition`}
                       onClick={() => router.push('/contact_us')}
                     >
                       Contact Us
