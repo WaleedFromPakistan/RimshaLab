@@ -64,7 +64,7 @@ const Header = () => {
             <span>St-2 Nadirabad, Lahore</span>
           </div>
           <Link
-            href="#" //online_report
+            href="#" // /online_report
             className="bg-[#4346c9] text-white font-bold px-5 py-2 rounded-full hover:bg-black transition"
           >
             Online Report
