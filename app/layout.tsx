@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <link rel="icon" href="/logo.jpg" /> */}
-    <link rel="icon" href="/logo.jpg" type="image/x-icon" />
+    <link rel="icon" href="/favicon.jpg" type="image/x-icon" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
