@@ -8,17 +8,17 @@ import "slick-carousel/slick/slick-theme.css";
 const certificateData = [
   {
     id: 1,
-    src: "/certificates/cert1.png",
+    src: "/Certificates/cert1.png",
     alt: "Membership Certificate 2022",
   },
   {
     id: 2,
-    src: "/certificates/cert2.jpg",
+    src: "/Certificates/cert2.jpg",
     alt: "Membership Certificate 2021",
   },
   {
     id: 3,
-    src: "/certificates/cert3.png",
+    src: "/Certificates/cert3.png",
     alt: "Membership Certificate 2024",
   },
 ];
