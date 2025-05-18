@@ -10,7 +10,7 @@ const page = () => {
             Careers
         </div>
       </div>
-      <div className='h-[10px] w-full bg-blue-900'></div>
+      <div className='h-[8px] w-full bg-blue-900'></div>
       <JoinUsForm/>
     </div>
   );

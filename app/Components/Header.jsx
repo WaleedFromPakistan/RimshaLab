@@ -56,7 +56,12 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <FaEnvelope />
             <span className="hover:underline cursor-pointer">
-             laboratoryrimsha@gmail.com
+              <a
+                href="mailto:laboratoryrimsha@gmail.com"
+                className="text-white "
+              >
+                laboratoryrimsha@gmail.com
+              </a>{" "}
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -170,7 +175,7 @@ const Header = () => {
             </div>
 
             <Link
-              href="/online_report"
+              href="/"
               className="hover:bg-[#3E4095] hover:text-white px-5 py-1 text-center rounded transition"
             >
               Online Report

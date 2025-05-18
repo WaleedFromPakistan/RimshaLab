@@ -66,58 +66,58 @@ const ContactUsForm = () => {
       <form ref={formRef} onSubmit={sendEmail} className="grid gap-y-6">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-[#3E4095] font-semibold mb-2">Name</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
             <input
               type="text"
               name="name"
               placeholder="Enter your full name"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3E4095]"
               required
+              className="w-full border-b border-gray-300 focus:outline-none focus:border-[#3E4095] py-2"
             />
           </div>
 
           <div>
-            <label className="block text-[#3E4095] font-semibold mb-2">Email</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
             <input
               type="email"
               name="email"
               placeholder="Enter your email address"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3E4095]"
               required
+              className="w-full border-b border-gray-300 focus:outline-none focus:border-[#3E4095] py-2"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-[#3E4095] font-semibold mb-2">Phone</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
           <input
             type="tel"
             name="phone"
-            placeholder="e.g. 03XX-XXXXXXX"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3E4095]"
+            placeholder="03XX-XXXXXXX"
             required
+            className="w-full border-b border-gray-300 focus:outline-none focus:border-[#3E4095] py-2"
           />
         </div>
 
         <div>
-          <label className="block text-[#3E4095] font-semibold mb-2">Subject</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
           <input
             type="text"
             name="subject"
             placeholder="Let us know how we can help you"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3E4095]"
             required
+            className="w-full border-b border-gray-300 focus:outline-none focus:border-[#3E4095] py-2"
           />
         </div>
 
         <div>
-          <label className="block text-[#3E4095] font-semibold mb-2">Message</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
           <textarea
             name="message"
             rows="5"
             placeholder="Write your message here..."
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#3E4095] resize-none"
             required
+            className="w-full border-b border-gray-300 focus:outline-none focus:border-[#3E4095] py-2 resize-none"
           ></textarea>
         </div>
 
@@ -139,7 +139,7 @@ const ContactUsForm = () => {
 
       {/* Success Popup */}
       {popup && (
-        <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow-lg">
+        <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow-lg text-sm">
           Your message has been sent successfully!
         </div>
       )}

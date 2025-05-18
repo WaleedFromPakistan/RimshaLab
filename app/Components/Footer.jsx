@@ -35,7 +35,12 @@ const Footer = () => {
           <div className="flex items-start gap-2 text-sm">
             <FaEnvelope className="text-teal-500 mt-1" />
             <span className="hover:underline cursor-pointer">
-              info@rimshalabs.com
+              <a
+                href="mailto:laboratoryrimsha@gmail.com"
+                className="text-white "
+              >
+                laboratoryrimsha@gmail.com
+              </a>{" "}
             </span>
           </div>
         </div>
@@ -77,7 +82,7 @@ const Footer = () => {
               { label: "Our Services", href: "/our_services" },
               { label: "Blogs", href: "/blogs" },
               { label: "Contact Us", href: "/contact_us" },
-              { label: "Policy", href: "/policy" },
+              { label: "Policy", href: "/quality_policy" },
             ].map(({ label, href }) => (
               <li key={href}>
                 <Link href={href} className="hover:underline cursor-pointer">
