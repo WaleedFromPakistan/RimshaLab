@@ -37,9 +37,20 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Rimsha Labs",
-              "url": "https://www.rimshalabs.com",
-              "logo": "https://www.rimshalabs.com/favicon.jpg",
+              name: "Rimsha Labs",
+              url: "https://www.rimshalabs.com",
+              logo: "https://www.rimshalabs.com/favicon.jpg",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+92-323-1486205",
+                contactType: "customer service",
+                areaServed: "PK",
+                availableLanguage: "English",
+              },
+              sameAs: [
+                "https://www.facebook.com/profile.php?id=100090405991627",
+                "https://www.instagram.com/rimshalab/",
+              ],
             }),
           }}
         />
