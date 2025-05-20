@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false)
-  const phoneNumber = "923091845657" // Your WhatsApp number
+  const phoneNumber = "923231486205" // Your WhatsApp number
   const message = encodeURIComponent("Hello! I'm interested in your lab services.")
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`
 
@@ -30,8 +30,8 @@ const WhatsAppButton = () => {
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0",
       )}
     >
-      <div className="h-12 w-12 flex items-center justify-center rounded-full bg-green-500 text-white">
-        <WhatsAppLogo className="h-6 w-6 animate-pulse-slow" />
+      <div className="h-16 w-16 flex items-center justify-center rounded-full bg-green-500 text-white">
+        <WhatsAppLogo className="h-10 w-10 animate-pulse-slow" />
       </div>
       <span className="absolute left-14 hover:text-green-600 pointer-events-none opacity-0 whitespace-nowrap group-hover:opacity-100 transition-opacity duration-300">
         How can we help you?
