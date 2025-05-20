@@ -9,17 +9,17 @@ const certificateData = [
   {
     id: 1,
     src: "/Certificates/cert1.png",
-    alt: "Membership Certificate 2022",
+    alt: "Punjab Healthcare Commsion Registration Certificate",
   },
   {
     id: 2,
     src: "/Certificates/cert2.jpg",
-    alt: "Membership Certificate 2021",
+    alt: "NEQAS Membership Certificate",
   },
   {
     id: 3,
     src: "/Certificates/cert3.png",
-    alt: "Membership Certificate 2024",
+    alt: "AT Waste Management Certificate",
   },
 ];
 
@@ -27,7 +27,7 @@ const Certificate = () => {
   const [selectedCert, setSelectedCert] = useState(null);
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 600,
     slidesToShow: 3,
