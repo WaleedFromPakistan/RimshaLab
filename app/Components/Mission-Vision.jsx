@@ -36,7 +36,7 @@ const MissionVision = () => {
   }
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 py-12">
+    <div className="w-full max-w-4xl  mx-auto px-4 py-12">
       {/* Tabs */}
       <div className="flex justify-center mb-10">
         <div className="inline-flex rounded-md shadow-sm" role="group">
@@ -58,7 +58,7 @@ const MissionVision = () => {
       </div>
 
       {/* Content */}
-      <div className="relative h-[350px] md:h-[250px] overflow-hidden">
+      <div className="relative h-[80vh] md:h-[250px] overflow-hidden">
         <div
           key={activeTab}
           className={cn(

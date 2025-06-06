@@ -39,7 +39,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Rimsha Labs",
               url: "https://www.rimshalabs.com",
-              logo: "https://www.rimshalabs.com/favicon.jpg",
+              logo: "https://www.rimshalabs.com/favicon.ico",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+92-323-1486205",
