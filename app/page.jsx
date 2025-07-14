@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     // Open modal when component mounts (page first renders)
-    setIsModalOpen(true)
+    setIsModalOpen(false) //tempory set in future will set from admin panel
   }, [])
 
   const closeModal = () => {
