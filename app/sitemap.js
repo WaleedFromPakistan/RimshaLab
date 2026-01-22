@@ -16,6 +16,19 @@ export default function sitemap() {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
       priority: 0.7,
+    },{
+      url: `${baseUrl}/our_services`,
+      lastModified: new Date(),
+      priority: 0.6,
+    },{
+      url: `${baseUrl}/careers`,
+      lastModified: new Date(),
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/quality_policy`,
+      lastModified: new Date(),
+      priority: 0.4,
     },
   ];
 }
