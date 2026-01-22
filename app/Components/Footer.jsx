@@ -108,7 +108,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-200 flex text-center py-4 text-sm px-4">
         <div className="w-full flex justify-center md:px-[10%]">
-          Rimsha Labs © 2025 All Right Reserved
+          Rimsha Labs © 2026 All Right Reserved
         </div>
       </div>
 
